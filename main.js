@@ -90,6 +90,8 @@ Q-No-7
 ]
  function get unique(myarr){
   for(var i=0; I<myarr.length; I++){
+  if(myarr[I]!=myarr[I+1])
+console.log(myarr[I])
   }
 }
 
