@@ -44,7 +44,7 @@ console.log(longest)
  class:" 9th"
 }
  function getkey(student){
-  console.log((object.key(student))
+  console.log((object.keys(student))
  }
 
 
@@ -75,7 +75,7 @@ Q-No-6
   function getkeys(patients){
   for(var I=0; I<patients.length: I++)
 {
-  console.log(object.key(patients[I]))
+  console.log(object.keys(patients[I]))
 }
 }
 
