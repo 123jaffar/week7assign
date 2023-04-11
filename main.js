@@ -6,6 +6,20 @@ function sumOfEvenNumbers(numbers){
     sum+=numbers[i]
  return sum
 }
+console.log(sum)
+Q-No-2
+let str="welcome here"
+var count=0
+function cntwovel(str){
+for(var I=0; I<str.length; I++)
+if(str[I]=='a' || str[I]=='e' str[I]=='I' ||str[i]
+||str[I]=='o' || str[I]=='u')
+count++
+
+return count
+}
+console.log(count)
+
 
 Q-No-4
 var are=[10,14,24,30,28,46,50,54,60,70]
@@ -15,8 +29,9 @@ var avg=0
  function average(are){
   for(var I=0; I<are.length; I++){
   sum+=are[i]
- avg=sum/(are.length-1)
 }
+ avg=sum/(are.length-1)
+
 return avg
 }
 
@@ -33,6 +48,10 @@ var x=1
 }
 return x
 }
+
+
+
+
 
 
  
