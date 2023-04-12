@@ -6,7 +6,8 @@ function sumOfEvenNumbers(numbers){
     sum+=numbers[i]
  return sum
 }
-console.log(sum)
+console.log(sumOfEvenNumbers(numbers))
+
 Q-No-2
 let str="welcome here"
 var count=0
@@ -18,7 +19,8 @@ count++
 
 return count
 }
-console.log(count)
+console.log(cntwovel(str))
+
 
 Q-No-3
 var strarr=["Jaffar", "Rahib", " Sulaiman", 
@@ -33,8 +35,10 @@ var strarr=["Jaffar", "Rahib", " Sulaiman",
    longest=strarr[I]
   }
 }
-console.log(longest)
+return longest
 }
+console.log(longeststr(strarr)
+
  
 
   Q-No-5
@@ -47,6 +51,7 @@ console.log(longest)
   console.log((object.keys(student))
  }
 
+ console.log(getkey(student))
 
 
 
@@ -66,7 +71,7 @@ var avg=0
 
 return avg
 }
-console.log(avg)
+console.log(average(are))
 
 Q-No-6
  var patients=[{"name:"arshad", age:40, tmp:37
@@ -88,12 +93,14 @@ Q-No-7
 },{"apple"," tomato","potato"},{"onion","lemon","
  "strawberry"}
 ]
- function get unique(myarr){
+ function getunique(myarr){
   for(var i=0; I<myarr.length; I++){
   if(myarr[I]!=myarr[I+1])
 console.log(myarr[I])
   }
 }
+
+ console.log(get unique(myarr))
 
 
 Q- No-8
@@ -108,7 +115,7 @@ var x=1
 }
 return x
 }
-console.log(x)
+console.log(product(prodNum))
 
 
 
