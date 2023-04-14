@@ -33,7 +33,7 @@ var strarr=["Jaffar", "Rahat Aziz Khan", " Sulaiman",
   for(var i=0; i<strarr.length; i++){
      if(strarr[i].length>longest){
    longest=strarr[i].length
-  s=strarr[I]
+  s=strarr[i]
   }
 }
 return {longest, s}
