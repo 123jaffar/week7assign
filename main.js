@@ -13,7 +13,7 @@ let str="welcome here"
 var count=0
 function cntwovel(str){
 for(var i=0; i<str.length; i++)
-if(str[i]=='a' || str[i]=='e' str[i]=='I' ||str[i]
+if(str[i]=='a' || str[i]=='e' || str[i]=='i' 
 ||str[i]=='o' || str[i]=='u')
 count++
 
