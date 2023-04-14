@@ -80,7 +80,7 @@ Q-No-6
   function getkeys(patients){
     return (Object.keys(patients))
 }
-  for(var i=0; i<patients.length: i++)
+  for(var i=0; i<patients.length; i++)
 {
   console.log(getkeys(patients[i]))
 }
