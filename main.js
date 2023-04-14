@@ -23,19 +23,20 @@ console.log(cntwovel(str))
 
 
 Q-No-3
-var strarr=["Jaffar", "Rahib", " Sulaiman", 
+var strarr=["Jaffar", "Rahat Aziz Khan", " Sulaiman", 
  "Aziz", " Bilal"]
  let l=strarr.length
 
  function longeststr(strarr){
-  var longest=strarr[0]
-
-  for(var I=0; I<strarr.l; I++){
-     if(strarr[I]>longest){
-   longest=strarr[I]
+  var longest=strarr[i].length
+  let sstr[i]
+  for(var i=0; i<strarr.l; i++){
+     if(strarr[i]>longest){
+   longest=strarr[i].l
+  s=strarr[I]
   }
 }
-return longest
+return {longest, s}
 }
 console.log(longeststr(strarr)
 
