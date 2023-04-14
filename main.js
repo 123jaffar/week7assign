@@ -74,15 +74,15 @@ return avg
 console.log(average(are))
 
 Q-No-6
- var patients=[{name:,"arshad", age:40, tmp:37
+ var patients=[{name:"arshad", age:40, tmp:37
 },{name:"ayub", age:29, tmp: 36},{
  name:"asghar", age:50, tmp:35}]
   function getkeys(patients){
     return (Object.keys(patients))
 }
-  for(var I=0; I<patients.length: I++)
+  for(var i=0; i<patients.length: i++)
 {
-  console.log(get keys(patients[i]))
+  console.log(getkeys(patients[i]))
 }
 
 
