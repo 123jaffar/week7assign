@@ -78,12 +78,12 @@ Q-No-6
  var patients=[{name:"arshad", age:40, tmp:37
 },{name:"ayub", age:29, tmp: 36},{
  name:"asghar", age:50, tmp:35}]
-  function getkeys(patients){
-    return (Object.keys(patients))
+  function getvalue(patients){
+    return (Object.values(patients))
 }
   for(var i=0; i<patients.length; i++)
 {
-  console.log(getkeys(patients[i]))
+  console.log(getvalue(patients[i]))
 }
 
 
